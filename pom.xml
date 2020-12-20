@@ -73,3 +73,15 @@
     </pluginManagement>
   </build>
 </project>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>LAPTOP-9OI1NAG1-releases</name>
+        <url>http://localhost:8081/artifactory/maven-demo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-9OI1NAG1-snapshots</name>
+        <url>http://localhost:8081/artifactory/maven-demo</url>
+    </snapshotRepository>
+</distributionManagement>
