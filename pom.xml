@@ -72,8 +72,7 @@
       </plugins>
     </pluginManagement>
   </build>
-</project>
-<distributionManagement>
+  <distributionManagement>
     <repository>
         <id>central</id>
         <name>LAPTOP-9OI1NAG1-releases</name>
@@ -85,3 +84,5 @@
         <url>http://localhost:8081/artifactory/maven-demo</url>
     </snapshotRepository>
 </distributionManagement>
+</project>
+
